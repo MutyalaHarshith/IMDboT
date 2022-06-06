@@ -1,0 +1,24 @@
+{
+  "name": "Harshith IMDb bot",
+  "description": "It is Normal IMDb bot u can use simply by created Mutyala Harshith.",
+  "repository": "https://github.com/MutyalaHarshith/IMDboT",
+  "logo": "https://telegra.ph/file/3d7270f81280b8ff25fdb.jpg",
+  "keywords": [
+    "bot",
+    "telegram",
+    "IMDBoT",
+    "MutyalaHarshith",
+    "Follow Us"
+  ],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Add your own bot token. Get token from @botfather",
+      "value": "MutyalaHarshith"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
