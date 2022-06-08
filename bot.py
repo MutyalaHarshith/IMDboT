@@ -54,7 +54,7 @@ def reply(update, context):
 
 def main():
 
-    updater = Updater("1476373283:AAHrdQE394_J8qd78J974y_AwVdwrsis1r0", use_context=True)
+    updater = Updater("5388724473:AAE2KsfZIkUNzmQMVXyRZ8kc2A_8A23x93w", use_context=True)
     dp = updater.dispatcher
     
     dp.add_handler(CommandHandler("start", start))
@@ -64,8 +64,8 @@ def main():
 
     #updater.start_webhook(listen="0.0.0.0",
     #                      port=int(PORT),
-    #                      url_path="1476373283:AAHrdQE394_J8qd78J974y_AwVdwrsis1r0")
-    #updater.bot.setWebhook('https://imdb-movie-bot.herokuapp.com/' + "1476373283:AAHrdQE394_J8qd78J974y_AwVdwrsis1r0")
+    #                      url_path="5388724473:AAE2KsfZIkUNzmQMVXyRZ8kc2A_8A23x93w")
+    #updater.bot.setWebhook('https://imdb-movie-bot.herokuapp.com/' + "5388724473:AAE2KsfZIkUNzmQMVXyRZ8kc2A_8A23x93w")
     updater.start_polling()
     updater.idle()
 
